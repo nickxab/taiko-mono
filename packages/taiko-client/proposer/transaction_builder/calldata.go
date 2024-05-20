@@ -109,8 +109,8 @@ func (b *CalldataTransactionBuilder) Build(
 	}
 
 	log.Info("TaikoL1.proposeBlock:")
-	log.Info("encodedParams", "bytes", encodedParams)
-	log.Info("txListBytes", "bytes", txListBytes)
+	log.Info("encodedParams", "bytes", common.Bytes2Hex(encodedParams))
+	log.Info("txListBytes", "bytes", common.Bytes2Hex(txListBytes))
 	os.Exit(0)
 
 	// Send the transaction to the L1 node.
