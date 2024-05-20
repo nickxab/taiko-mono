@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.1.0](https://github.com/taikoxyz/taiko-mono/compare/taikoon-ui-v1.0.0...taikoon-ui-v1.1.0) (2024-05-20)
+
+
+### Features
+
+* **nfts:** adapt taikoon-ui to the new package structure ([#17271](https://github.com/taikoxyz/taiko-mono/issues/17271)) ([6b7f44a](https://github.com/taikoxyz/taiko-mono/commit/6b7f44a2e2e6dc9ee63a565c95ba5023e66940c6))
+* **taikoon:** geoblocking ([#17201](https://github.com/taikoxyz/taiko-mono/issues/17201)) ([6658f6a](https://github.com/taikoxyz/taiko-mono/commit/6658f6ae553c3c02560a9fa622f1dd3f938c119d))
+* **taikoon:** ipfs integration with 4everland ([#17119](https://github.com/taikoxyz/taiko-mono/issues/17119)) ([46670cf](https://github.com/taikoxyz/taiko-mono/commit/46670cfb8f087c87c42799d7ded3a0dc1258a963))
+
 ## 1.0.0 (2024-05-15)
 
 
