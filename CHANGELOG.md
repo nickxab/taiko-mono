@@ -1,3 +1,5 @@
+
+
 # Changelog
 
 ## [0.23.0](https://github.com/taikoxyz/taiko-mono/compare/taiko-mono-v0.22.0...taiko-mono-v0.23.0) (2023-10-18)
