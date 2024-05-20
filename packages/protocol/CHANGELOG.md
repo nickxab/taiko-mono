@@ -1,5 +1,24 @@
 # Changelog
 
+## [1.6.0](https://github.com/taikoxyz/taiko-mono/compare/protocol-v1.5.0...protocol-v1.6.0) (2024-05-20)
+
+
+### Features
+
+* **protocol,supplementary-contracts:** relocate & allow TokenUnlock to deploy and own ProverSets ([#17251](https://github.com/taikoxyz/taiko-mono/issues/17251)) ([f3d6ca1](https://github.com/taikoxyz/taiko-mono/commit/f3d6ca1be680f5acb3ca5553954f46bbbfe253ca))
+* **protocol:** add ProverSet to hold TKO tokens ([#17230](https://github.com/taikoxyz/taiko-mono/issues/17230)) ([b7802b1](https://github.com/taikoxyz/taiko-mono/commit/b7802b15f27a2e8e10a087d04aa1aa131705cca5))
+* **protocol:** allow getTransition to be called for all blocks ([#17268](https://github.com/taikoxyz/taiko-mono/issues/17268)) ([bca493f](https://github.com/taikoxyz/taiko-mono/commit/bca493f686181a9bbe9b6722742efa3fa98eaf99))
+* **protocol:** allow L1 bridge to self-delegate any token's voting power ([#17204](https://github.com/taikoxyz/taiko-mono/issues/17204)) ([9bd5efa](https://github.com/taikoxyz/taiko-mono/commit/9bd5efabd8f77d6048517d798fd50595e0b739e6))
+* **protocol:** deploy `ProverSet` in `DeployOnL1` script ([#17272](https://github.com/taikoxyz/taiko-mono/issues/17272)) ([6e56475](https://github.com/taikoxyz/taiko-mono/commit/6e56475413c3240d56d70d413ca5195cd1ced4cc))
+* **protocol:** enable AddressManager not to load from storage ([#17250](https://github.com/taikoxyz/taiko-mono/issues/17250)) ([c8207d3](https://github.com/taikoxyz/taiko-mono/commit/c8207d38bf3356ecbb629e36831de021afb582c5))
+* **protocol:** make AutomataDcapV3Attestation state variables public and emit events ([#17193](https://github.com/taikoxyz/taiko-mono/issues/17193)) ([3740dc0](https://github.com/taikoxyz/taiko-mono/commit/3740dc070ae57ab66051f4ba1c046dd732e90dab))
+* **protocol:** refactor tier providers and added minority-guardian provers to all providers ([#17169](https://github.com/taikoxyz/taiko-mono/issues/17169)) ([cd51442](https://github.com/taikoxyz/taiko-mono/commit/cd514425511e48b9085cd8fe030d720ca73c0ba2))
+
+
+### Bug Fixes
+
+* **protocol:** fix tier ID check issue in `GuardianProver.approve()` ([#17170](https://github.com/taikoxyz/taiko-mono/issues/17170)) ([f3dc402](https://github.com/taikoxyz/taiko-mono/commit/f3dc402c798ed7c15a2664e129ef47b3c345f168))
+
 ## [1.5.0](https://github.com/taikoxyz/taiko-mono/compare/protocol-v1.4.0...protocol-v1.5.0) (2024-05-10)
 
 
